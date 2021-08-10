@@ -1,3 +1,4 @@
+const FileSystem = require("fs");
 const Countries = require("./countries.json");
 const data = Countries.data;
 
@@ -21,9 +22,13 @@ data.map(({ name, continent }, i) => {
   }
 });
 
-newData = newData.map((node)=>{
-  let {countries} =node
-  countries = countries.sort()
+newData = newData.map((node) => {
+  let { countries } = node;
+  countries = countries.sort();
   return node;
-})
+});
 console.log(newData);
+
+FileSystem.writeFile("cont n count.json", JSON.stringify(newData), (error) => {
+  if (error) throw error;
+});
