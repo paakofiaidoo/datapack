@@ -1,0 +1,94 @@
+{
+  "id": "xwS5b1G6tn",
+  "name": "Antarctica",
+  "code": "AN",
+  "countries": [
+    {
+      "capital": "",
+      "cities": {
+        "results": [
+          {
+            "id": "ERFdfVEIik",
+            "name": "McMurdo Station",
+            "location": { "latitude": -77.846, "longitude": 166.676 },
+            "population": 1258
+          }
+        ]
+      },
+      "code": "AQ",
+      "currency": "",
+      "emoji": "🇦🇶",
+      "emojiU": "U+1F1E6 U+1F1F6",
+      "id": "Fs3xs9NlJa",
+      "name": "Antarctica",
+      "native": "Antarctica",
+      "phone": "672"
+    },
+    {
+      "capital": "",
+      "cities": { "results": [] },
+      "code": "BV",
+      "currency": "NOK",
+      "emoji": "🇧🇻",
+      "emojiU": "U+1F1E7 U+1F1FB",
+      "id": "3K9cHA3Xp8",
+      "name": "Bouvet Island",
+      "native": "Bouvetøya",
+      "phone": "47"
+    },
+    {
+      "capital": "Port-aux-Français",
+      "cities": {
+        "results": [
+          {
+            "id": "a0wt6Hju2W",
+            "name": "Port-aux-Français",
+            "location": { "latitude": -49.35, "longitude": 70.21667 },
+            "population": 45
+          }
+        ]
+      },
+      "code": "TF",
+      "currency": "EUR",
+      "emoji": "🇹🇫",
+      "emojiU": "U+1F1F9 U+1F1EB",
+      "id": "9yGMMYfLDC",
+      "name": "French Southern Territories",
+      "native": "Territoire des Terres australes et antarctiques fr",
+      "phone": "262"
+    },
+    {
+      "capital": "",
+      "cities": { "results": [] },
+      "code": "HM",
+      "currency": "AUD",
+      "emoji": "🇭🇲",
+      "emojiU": "U+1F1ED U+1F1F2",
+      "id": "obivyMu1QI",
+      "name": "Heard Island and McDonald Islands",
+      "native": "Heard Island and McDonald Islands",
+      "phone": "61"
+    },
+    {
+      "capital": "King Edward Point",
+      "cities": {
+        "results": [
+          {
+            "id": "0cfGS5tSKC",
+            "name": "Grytviken",
+            "location": { "latitude": -54.28111, "longitude": -36.5092 },
+            "population": 2
+          }
+        ]
+      },
+      "code": "GS",
+      "currency": "GBP",
+      "emoji": "🇬🇸",
+      "emojiU": "U+1F1EC U+1F1F8",
+      "id": "SyJ1XgC9NA",
+      "name": "South Georgia and the South Sandwich Islands",
+      "native": "South Georgia",
+      "phone": "500"
+    }
+  ]
+}

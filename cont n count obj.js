@@ -49,14 +49,17 @@ newData = newData.map((node) => {
   });
   return node;
 });
-console.log(newData);
-newData.forEach(({ countries, name }) => {
-  console.log("\n", name);
+
+newData.forEach((continent) => {
+  let { countries, name } = continent;
+
   countries.forEach((country) => {
     country.cities.results.forEach((city) => {
       delete city.province;
     });
-    console.log(name);
+  });
+  FileSystem.writeFile(`${name}.json`, JSON.stringify(continent), (error) => {
+    if (error) throw error;
   });
 });
 
